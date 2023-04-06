@@ -1,0 +1,20 @@
+---
+title: "Lipsum Example"
+format:
+  html: default
+  pdf: default
+---
+
+## Lipsum
+
+This extension produces placeholder text that is useful for generating sample documents. An example appears below.
+
+## Number of Paragraphs
+
+{{< lipsum 2 >}}
+
+## First 4 Paragraphs of Lipsum
+
+{{< lipsum 1-4 >}}
+
+
