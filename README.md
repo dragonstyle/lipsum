@@ -24,7 +24,7 @@ Simply place the shortcode where you'd like placeholder content to be generated.
 You can specify how many paragraphs of Lipsum you'd like included. For example, to include 7 paragraphs of lipsum, you would write:
 
 ```
-{{< lipsum 7>}}
+{{< lipsum 7 >}}
 ```
 
 ### Ranges
