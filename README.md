@@ -38,7 +38,7 @@ Lipsum use a dictionary of lipsum paragraphs. You can use particular paragraphs 
 You can also specify decreasing ranges, such as:
 
 ```
-{{<lipsum 4-2 >}}
+{{< lipsum 4-2 >}}
 ```
 
 ## Example
