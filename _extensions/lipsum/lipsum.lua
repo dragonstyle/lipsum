@@ -2,6 +2,9 @@
 
 local lipsum
 
+math.randomseed(os.time())
+
+
 -- reads a file
 local function read_file(path)
   local file = io.open(path, "rb") 
@@ -55,7 +58,6 @@ return {
         -- a number of paragraphs is specified, like 10
         local _,_,bareVal = range:find(barePattern)
         if bareVal then
-          math.randomseed(os.time())
           paraStart = math.random(1, 17)
           local endNumber = tonumber(bareVal)
           if endNumber ~= nil then
