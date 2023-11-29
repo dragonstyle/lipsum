@@ -55,9 +55,11 @@ return {
         -- a number of paragraphs is specified, like 10
         local _,_,bareVal = range:find(barePattern)
         if bareVal then
+          math.randomseed(os.time())
+          paraStart = math.random(1, 17)
           local endNumber = tonumber(bareVal)
           if endNumber ~= nil then
-            paraEnd = endNumber
+            paraEnd = paraStart + endNumber - 1
           end
         end  
       end
